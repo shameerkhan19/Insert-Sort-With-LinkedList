@@ -1,0 +1,57 @@
+Data Inserted(you):
+ListHead -->(dummy,you)-->(you, NULL)-->NULL
+
+Data Inserted(I):
+ListHead -->(dummy,I)-->(I,you)-->(you, NULL)-->NULL
+
+Data Inserted(he):
+ListHead -->(dummy,he)-->(he,I)-->(I,you)-->(you, NULL)-->NULL
+
+Data Inserted(she):
+ListHead -->(dummy,he)-->(he,I)-->(I,she)-->(she,you)-->(you, NULL)-->NULL
+
+Data Inserted(are):
+ListHead -->(dummy,are)-->(are,he)-->(he,I)-->(I,she)-->(she,you)-->(you, NULL)-->NULL
+
+Data Inserted(is):
+ListHead -->(dummy,are)-->(are,he)-->(he,I)-->(I,is)-->(is,she)-->(she,you)-->(you, NULL)-->NULL
+
+Data Inserted(was):
+ListHead -->(dummy,are)-->(are,he)-->(he,I)-->(I,is)-->(is,she)-->(she,was)-->(was,you)-->(you, NULL)-->NULL
+
+Data Inserted(am):
+ListHead -->(dummy,am)-->(am,are)-->(are,he)-->(he,I)-->(I,is)-->(is,she)-->(she,was)-->(was,you)-->(you, NULL)-->NULL
+
+Data Inserted(were):
+ListHead -->(dummy,am)-->(am,are)-->(are,he)-->(he,I)-->(I,is)-->(is,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(of):
+ListHead -->(dummy,am)-->(am,are)-->(are,he)-->(he,I)-->(I,is)-->(is,of)-->(of,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(and):
+ListHead -->(dummy,am)-->(am,and)-->(and,are)-->(are,he)-->(he,I)-->(I,is)-->(is,of)-->(of,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(if):
+ListHead -->(dummy,am)-->(am,and)-->(and,are)-->(are,he)-->(he,I)-->(I,if)-->(if,is)-->(is,of)-->(of,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(or):
+ListHead -->(dummy,am)-->(am,and)-->(and,are)-->(are,he)-->(he,I)-->(I,if)-->(if,is)-->(is,of)-->(of,or)-->(or,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(him):
+ListHead -->(dummy,am)-->(am,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,of)-->(of,or)-->(or,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(a):
+ListHead -->(dummy,a)-->(a,am)-->(am,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,of)-->(of,or)-->(or,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(an):
+ListHead -->(dummy,a)-->(a,am)-->(am,an)-->(an,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,of)-->(of,or)-->(or,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(one):
+ListHead -->(dummy,a)-->(a,am)-->(am,an)-->(an,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,of)-->(of,one)-->(one,or)-->(or,she)-->(she,was)-->(was,were)-->(were,you)-->(you, NULL)-->NULL
+
+Data Inserted(yes):
+ListHead -->(dummy,a)-->(a,am)-->(am,an)-->(an,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,of)-->(of,one)-->(one,or)-->(or,she)-->(she,was)-->(was,were)-->(were,yes)-->(yes,you)-->(you, NULL)-->NULL
+
+Data Inserted(no):
+ListHead -->(dummy,a)-->(a,am)-->(am,an)-->(an,and)-->(and,are)-->(are,he)-->(he,him)-->(him,I)-->(I,if)-->(if,is)-->(is,no)-->(no,of)-->(of,one)-->(one,or)-->(or,she)-->(she,was)-->(was,were)-->(were,yes)-->(yes,you)-->(you, NULL)-->NULL
+
